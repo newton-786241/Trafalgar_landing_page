@@ -111,7 +111,7 @@ export default function Home() {
         </div>
       </section>
       <div>
-        <Image src={bg2} style={{position:'absolute', zIndex:'-1', right:'0'}}></Image> 
+        <Image src={bg2} style={{position:'absolute', zIndex:'-1', right:'0', width:'40vw', height:'auto'}}></Image> 
       <section className="articles" style={{display:"flex", justifyContent:'space-around', flexDirection:'column', height:'50vw', margin:'3vw 0vw'}}>
         <div style={{width:'70%', marginRight:'auto', marginLeft:'auto', textAlign:'center' }}>
           <h1>Check out our latest articles</h1>
@@ -141,21 +141,21 @@ export default function Home() {
           <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
         </div>
         <div  style={{lineHeight:'2vw'}} className="design">
-          <h1>Company</h1>
+          <h1 style={{fontSize:'1.5vw'}}>Company</h1>
           <p>About</p>
           <p>Testimonials</p>
           <p>Find a doctor</p>
           <p>Apps</p>
         </div>
         <div  style={{lineHeight:'2vw'}} className="design">
-          <h1>Region</h1>
+          <h1 style={{fontSize:'1.5vw'}}>Region</h1>
           <p>Indonesia</p>
           <p>Singapore</p>
           <p>Hongkong</p>
           <p>Canad</p>
         </div>
         <div style={{lineHeight:'2vw'}} className="design"> 
-          <h1>Help</h1>
+          <h1 style={{fontSize:'1.5vw'}}>Help</h1>
           <p>Help center</p>
           <p>Contact Support</p>
           <p>Instructions</p>

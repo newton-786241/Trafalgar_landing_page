@@ -56,17 +56,19 @@ a {
 }
 .design p:hover{
   cursor: pointer;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
 }
 .design p{
   transition: font-size 0.3s ease;
+  font-size: 1.1vw;
 }
 .articles a:hover{
   cursor: pointer;
   text-decoration: underline;
-  font-size: 1vw;
+  font-size: 1.1vw;
 }
 .articles a{
   transition: font-size 0.3s ease;
+  font-size: 1vw;
 }
 
